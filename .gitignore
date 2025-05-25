@@ -6,3 +6,8 @@
 /build/
 
 /.npm/
+
+# amplify
+.amplify
+amplify_outputs*
+amplifyconfiguration*
