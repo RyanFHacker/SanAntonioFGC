@@ -5,12 +5,7 @@
 import React, { type MouseEvent, useState } from 'react';
 
 function NavigationImagePane() {
-    const defaultImage = '../images/SAFGC_sticker_logo.png'
-    const myHoverImage = '../images/white_safgc-2025_logo.png'
-    const handleMouseEvent = (e: MouseEvent<HTMLButtonElement>) => {
-        e.preventDefault();
-        // Change something to use another image
-    };
+    const defaultImage = './images/SAFGC_sticker_logo.png'
     const [image, setImage] = useState(defaultImage);
 
     const navButtons = [        {
@@ -20,16 +15,16 @@ function NavigationImagePane() {
         },
         {
             text: "ABOUT",
-            hoverImage: '../images/white_safgc-2025_logo.png',
+            hoverImage: './images/white_safgc-2025_logo.png',
             link: ''
         },
         {
             text: 'CONTACT',
-            hoverImage: '../images/SAFGC_logo_2023_colored.png',
+            hoverImage: './images/SAFGC_logo_2023_colored.png',
             link: ''
         },
         {
-            text: 'EVENTS', hoverImage: '../images/safgc_y2k2024_logo.png',
+            text: 'EVENTS', hoverImage: './images/safgc_y2k2024_logo.png',
             link: ''
         },{
             text: "",

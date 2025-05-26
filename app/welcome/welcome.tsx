@@ -1,4 +1,3 @@
-import NavigationButton from "~/NavigationButton";
 import logo from "./SAFGC_sticker_logo.png";
 import NavigationImagePane from "~/NavigationImagePane";
 
